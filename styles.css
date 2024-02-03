@@ -25,6 +25,11 @@ ul, ol {
     cursor: pointer;
 }
 
+.mobile-navbar  a{
+    text-decoration: none;
+}
+
+
 /* Hide the side navbar on mobile */
 .side-navbar {
     display: none;
