@@ -1,3 +1,4 @@
+/* variables  */
 :root {
     --clr-primary: black;
     --clr-secondary: darkgrey;
@@ -5,3 +6,11 @@
     --clr-light: lightgrey;
     --clr-white: white;
   }
+ /* css reset */
+  body,
+h1, h2, h3, p, figure, picture {
+  margin: 0;
+}
+ul, ol {
+  padding: 0;
+}
