@@ -51,6 +51,9 @@ ul, ol {
     color: #333; /* Adjust the color as needed */
     text-decoration: none;
 }
+.side-navbar li:hover {
+    text-decoration: underline;
+}
 
 
 /* Media query for desktop devices */
