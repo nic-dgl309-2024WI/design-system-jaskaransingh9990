@@ -1,7 +1,7 @@
 /* variables  */
 :root {
     --clr-primary: black;
-    --clr-secondary: darkgrey;
+    --clr-secondary: dark grey;
     --clr-accent: #A80000;
     --clr-light: lightgrey;
     --clr-white: white;
@@ -27,7 +27,7 @@ ul, ol {
 
 .mobile-navbar  a{
     text-decoration: none;
-    color: var(--clr-primary);
+    color: var(--clr-secondary);
 }
 
 
@@ -115,4 +115,61 @@ ul, ol {
     display: none; /* Initially hide the mobile navbar */
     
 }
+}
+
+/* Utility Classes */
+.text-primary {
+    color: var(--clr-primary);
+}
+
+.text-secondary {
+    color: var(--clr-secondary);
+}
+
+.text-accent {
+    color: var(--clr-accent);
+}
+
+.text-light {
+    color: var(--clr-light);
+}
+
+.text-white {
+    color: var(--clr-white);
+}
+
+.bg-primary {
+    background-color: var(--clr-primary);
+}
+
+.bg-secondary {
+    background-color: var(--clr-secondary);
+}
+
+.bg-accent {
+    background-color: var(--clr-accent);
+}
+
+.bg-light {
+    background-color: var(--clr-light);
+}
+
+.bg-white {
+    background-color: var(--clr-white);
+}
+
+.text-primary-light {
+    color: var(--clr-primary-100);
+}
+
+.bg-primary-light {
+    background-color: var(--clr-primary-100);
+}
+
+.text-primary-dark {
+    color: var(--clr-primary-300);
+}
+
+.bg-primary-dark {
+    background-color: var(--clr-primary-300);
 }
