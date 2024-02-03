@@ -45,7 +45,6 @@ ul, ol {
     display: none;
 }
 .logo-text {
-    font-family: 'Arial', sans-serif; /* Choose an appropriate font */
     font-size: 1.5rem; /* Adjust the font size as needed */
     font-weight: bold;
     color: #333; /* Adjust the color as needed */
@@ -80,7 +79,6 @@ ul, ol {
     margin-right: 1px;
 }
 .logo-text {
-    font-family: 'Arial', sans-serif; /* Choose an appropriate font */
     font-size: 1.5rem; /* Adjust the font size as needed */
     font-weight: bold;
     color: #333; /* Adjust the color as needed */
