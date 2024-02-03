@@ -17,7 +17,12 @@ ul, ol {
 }
 
 .mobile-navbar {
-    display: block;
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 /* Hide the side navbar on mobile */
@@ -27,6 +32,14 @@ ul, ol {
 .top-navbar {
     display: none;
 }
+.logo-text {
+    font-family: 'Arial', sans-serif; /* Choose an appropriate font */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+    text-decoration: none;
+}
+
 
 /* Media query for desktop devices */
 @media (min-width: 767px) {
@@ -87,7 +100,7 @@ ul, ol {
 .mobile-navbar {
     display: none; /* Initially hide the mobile navbar */
     background-color: #333;
-    color: white;
+    color: black;
     padding: 10px;
     text-align: right;
     cursor: pointer;
