@@ -2,7 +2,7 @@
 :root {
     --clr-primary: black;
     --clr-secondary: darkgrey;
-    --clr-accent: darkgrey;
+    --clr-accent: #A80000;
     --clr-light: lightgrey;
     --clr-white: white;
   }
