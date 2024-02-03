@@ -29,6 +29,13 @@ ul, ol {
 .side-navbar {
     display: none;
 }
+.side-navbar.show {
+    display: block;
+}
+.side-navbar a {
+    text-decoration: none;
+    color:black;
+}
 .top-navbar {
     display: none;
 }
