@@ -64,9 +64,9 @@ ul, ol {
 .side-navbar {
     display: flex;
     flex-direction: column;
-    background-color: #333;
-    padding: 20px;
-    color: white;
+    background-color: white;
+    padding: 10px;
+    color: black;
     width: 250px;
 }
 
@@ -75,12 +75,12 @@ ul, ol {
 }
 
 .side-navbar h3 {
-    color: #61dafb;
+    color: black;
     margin-bottom: 10px;
 }
 
 .side-navbar li {
-    margin-bottom: 8px;
+    margin-bottom: 1px;
 }
 
 /* Mobile Navbar styles */
