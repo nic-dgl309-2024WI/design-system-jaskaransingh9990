@@ -121,6 +121,12 @@
 
 
 /*color swatch*/
+.swatches{
+    float: right;
+    top: 25%;
+    left: 20%;
+    position:absolute;
+}
 .color-box-primary{
     background-color: #333333;
     width: 100px;
