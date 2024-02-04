@@ -54,6 +54,9 @@ ul, ol {
 .side-navbar li:hover {
     text-decoration: underline;
 }
+.side-navbar li.active {
+    background-color: var(--clr-light); 
+}
 
 
 /* Media query for desktop devices */
@@ -108,6 +111,9 @@ ul, ol {
 
 .side-navbar li {
     margin-bottom: 1px;
+}
+.side-navbar li.active {
+    background-color: var(--clr-light); 
 }
 
 /* Mobile Navbar styles */
