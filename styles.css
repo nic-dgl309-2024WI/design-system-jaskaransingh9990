@@ -37,6 +37,8 @@ ul, ol {
 }
 .side-navbar.show {
     display: block;
+    width: 100px;
+
 }
 .side-navbar a {
     text-decoration: none;
@@ -57,6 +59,11 @@ ul, ol {
 .side-navbar li.active {
     background-color: var(--clr-light); 
 }
+.side-navbar h3 {
+    color: var(--clr-accent);
+    margin-bottom: 10px;
+}
+
 
 
 /* Media query for desktop devices */
@@ -97,7 +104,7 @@ ul, ol {
     background-color: var(--clr-white);
     padding: 10px;
     color: var(--clr-primary);
-    width: 250px;
+    width: 100px;
 }
 
 .side-navbar ul {
