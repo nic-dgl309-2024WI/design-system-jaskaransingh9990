@@ -129,6 +129,7 @@ ul, ol {
     display: none; /* Initially hide the mobile navbar */
     
 }
+
 }
 
 /* Utility Classes */
@@ -189,7 +190,32 @@ ul, ol {
 }
 
 
+/*color swatch*/
+.color-box-primary{
+    background-color: #333333;
+    width: 100px;
+    border: 2px solid ;
+    color:white;
+}
 
+.color-box-secondary{
+    background-color:  #a9a9a9;
+    width: 100px;
+    border: 2px solid ;
+    color:white;
+}
+.color-box-accent{
+    background-color:   #A80000;
+    width: 100px;
+    border: 2px solid ;
+    color:white;
+}
+.color-box-white{
+    background-color:   white;
+    width: 100px;
+    border: 2px solid ;
+    color:#333333;
+}
 
 
 .color-swatch {
