@@ -36,6 +36,7 @@ ul, ol {
 .side-navbar {
     display: none;
 }
+
 .side-navbar.show {
     display: block;
     width: 100px;
@@ -129,7 +130,9 @@ ul, ol {
     display: none; /* Initially hide the mobile navbar */
     
 }
-
+.mobile-side-navbar{
+    display: none;
+}
 }
 
 /* Utility Classes */
