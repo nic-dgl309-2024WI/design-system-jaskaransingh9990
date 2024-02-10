@@ -105,7 +105,40 @@ ul, ol {
     letter-spacing: 0; 
 }
 
+.u-ff-serif {
+    font-family: serif; 
+}
 
+.u-fs-800 {
+    font-size: 800;
+}
 
+.u-fw-700 {
+    font-weight: 700; 
+}
+
+.u-letter-spacing-2 {
+    letter-spacing: 2px; 
+}
+
+.u-text-accent {
+    color: var(--clr-accent); 
+}
+
+.u-ff-sans {
+    font-family: sans-serif; 
+}
+
+.u-fw-400 {
+    font-weight: 400;
+}
+
+.u-text-primary {
+    color: var(--clr-primary); 
+}
+
+.u-text-secondary {
+    color: var(--clr-primary); 
+}
 
 
