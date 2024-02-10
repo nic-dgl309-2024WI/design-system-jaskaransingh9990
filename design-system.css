@@ -216,3 +216,12 @@
 .text-primary-dark {
     color: var(--clr-primary-300);
 }
+
+
+/*  typography*/
+.typography{
+    float: right;
+    top: 25%;
+    left: 20%;
+    position:absolute;
+}

@@ -5,10 +5,15 @@
     --clr-accent: #A80000;
     --clr-light: lightgrey;
     --clr-white: white;
-    --heading-font-family: 'Robotro', sans-serif;
+    --heading-font-family: 'Robotro',serif;
     --body-font-family: 'Open Sans', sans-serif;
 
   }
+  /* google fonts link */
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
  /* css reset */
   body,
 h1, h2, h3, p, figure, picture {
@@ -82,8 +87,7 @@ ul, ol {
 
 /* fonts utility class */
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-
+ 
 
   .u-font-heading {
     font-family: var(--heading-font-family);
