@@ -5,11 +5,15 @@
     --clr-accent: #A80000;
     --clr-light: lightgrey;
     --clr-white: white;
+    --heading-font-family: 'Robotro', sans-serif;
+    --body-font-family: 'Open Sans', sans-serif;
+
   }
  /* css reset */
   body,
 h1, h2, h3, p, figure, picture {
   margin: 0;
+  
 }
 ul, ol {
   padding: 0;
@@ -73,3 +77,31 @@ ul, ol {
 .bg-primary-dark {
     background-color: var(--clr-primary-300);
 }
+
+
+
+/* fonts utility class */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+  .u-font-heading {
+    font-family: var(--heading-font-family);
+    font-size: 2rem; 
+    font-weight: bold; 
+    line-height: 1.5; 
+    letter-spacing: 0.1em; 
+}
+
+.u-font-body {
+    font-family: var(--body-font-family);
+    font-size: 1rem; 
+    font-weight: normal; 
+    line-height: 1.6; 
+    letter-spacing: 0; 
+}
+
+
+
+
+
