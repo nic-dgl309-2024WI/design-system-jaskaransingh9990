@@ -32,6 +32,10 @@
 .top-navbar {
     display: none;
 }
+.top-navbar li.active {
+    background-color: var(--clr-light); 
+    font-size: medium;
+}
 .logo-text {
     font-size: 1.5rem; /* Adjust the font size as needed */
     font-weight: bold;
@@ -43,6 +47,7 @@
 }
 .side-navbar li.active {
     background-color: var(--clr-light); 
+    font-size: medium;
 }
 .side-navbar h3 {
     color: var(--clr-accent);
@@ -222,7 +227,7 @@
 .typography{
     float: right;
     top: 25%;
-    left: 12%;
+    left: 24%;
     position:absolute;
 }
 
