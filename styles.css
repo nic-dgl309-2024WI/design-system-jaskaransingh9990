@@ -5,8 +5,39 @@
     --clr-accent: #A80000;
     --clr-light: lightgrey;
     --clr-white: white;
-    --heading-font-family: 'Robotro',serif;
-    --body-font-family: 'Open Sans', sans-serif;
+   
+
+    
+  /* Font families */
+
+  --font-family-heading: 'Roboto',serif;
+  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-buttons: 'Poppins', sans-serif;
+
+
+    /* Font Sizes */
+  --font-size-h1: 2.8rem;
+  --font-size-h2: 2.4rem;
+  --font-size-h3: 2.0rem;
+  --font-size-p: 1.8rem;
+  --font-size-list: 1.6rem;
+  --font-size-buttons: 2.0rem;
+  --font-size-forms: 1.6rem;
+
+  /* Font Weight */
+  --font-weight-heading: 700; /* Bold */
+  --font-weight-body: 400; /* Regular */
+  --font-weight-buttons: 500; /* Medium */
+
+   /* Letter spacing */
+ 
+   --letter-spacing-1: 1px;
+   --letter-spacing-2: 2px; 
+   --letter-spacing-3: 3px; 
+
+   --line-height-body: 1.5;
+   --line-height-heading: 1.2;
+   --line-height-list:1.4;
 
   }
   /* google fonts link */
