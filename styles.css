@@ -1,3 +1,9 @@
+html{
+    font-size: 62.5%;
+    
+  }
+  
+
 /* variables  */
 :root {
     --clr-primary: black;
@@ -43,7 +49,9 @@
   /* google fonts link */
   
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
  /* css reset */
   body,
@@ -116,60 +124,139 @@ ul, ol {
 
 
 
-/* fonts utility class */
 
- 
+/* Typography */
 
-  .u-font-heading {
-    font-family: var(--heading-font-family);
-    font-size: 2rem; 
-    font-weight: bold; 
-    line-height: 1.5; 
-    letter-spacing: 0.1em; 
-}
-
-.u-font-body {
-    font-family: var(--body-font-family);
-    font-size: 1rem; 
-    font-weight: normal; 
-    line-height: 1.6; 
-    letter-spacing: 0; 
-}
-
-.u-ff-serif {
-    font-family: serif; 
-}
-
-.u-fs-800 {
-    font-size: 800;
-}
-
-.u-fw-700 {
-    font-weight: 700; 
-}
-
-.u-letter-spacing-2 {
-    letter-spacing: 2px; 
-}
-
-.u-text-accent {
-    color: var(--clr-accent); 
-}
-
-.u-ff-sans {
-    font-family: sans-serif; 
-}
-
-.u-fw-400 {
+.u-font-heading {
+    font-family: var(--font-family-heading);
+  }
+  
+  .u-font-body {
+    font-family: var(--font-family-body);
+  }
+  
+  .u-font-buttons {
+    font-family: var(--font-family-buttons);
+  }
+  
+  .u-font-weight-bold {
+    font-weight: var(--font-weight-heading);
+  }
+  
+  .u-font-weight-regular {
+    font-weight: var(--font-weight-body);
+  }
+  
+  .u-font-weight-medium {
+    font-weight: var(--font-weight-buttons);
+  }
+  
+  .u-font-size-h1 {
+    font-size: var(--font-size-h1);
+  }
+  
+  .u-font-size-h2 {
+    font-size: var(--font-size-h2);
+  }
+  
+  .u-font-size-h3 {
+    font-size: var(--font-size-h3);
+  }
+  
+  .u-font-size-p {
+    font-size: var(--font-size-p);
+  }
+  
+  .u-font-size-list {
+    font-size: var(--font-size-list);
+  }
+  
+  .u-font-size-buttons {
+    font-size: var(--font-size-buttons);
+  }
+  
+  .u-font-size-forms {
+    font-size: var(--font-size-forms);
+  }
+  
+  /* Utility classes for letter spacing */
+  .u-letter-spacing-1 {
+    letter-spacing: 1px;
+  }
+  
+  .u-letter-spacing-2 {
+    letter-spacing: 2px;
+  }
+  
+  .u-letter-spacing-3 {
+    letter-spacing: 3px;
+  }
+  
+  /* Utility classes for line height */
+  .u-line-height-body {
+    line-height: 1.5;
+  }
+  
+  .u-line-height-heading {
+    line-height: 1.2;
+  }
+  
+  .u-line-height-list {
+    line-height: 1.4;
+  }
+  
+  
+  
+  /* Heading (H1) */
+  .u-font-headings {
+    font-family:'Roboto',serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Subheading (H2) */
+  .u-font-subheading {
+    font-family: 'Roboto',serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Sub-subheading (H3) */
+  .u-font-sub-subheading {
+    font-family: 'Roboto',serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Body Text (P) */
+  .u-font-body-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
     font-weight: 400;
-}
-
-.u-text-primary {
-    color: var(--clr-primary); 
-}
-
-.u-text-secondary {
-    color: var(--clr-primary); 
-}
-
-
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
+  
+  /* List Items */
+  .u-font-list-item {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
+  
+  /* Buttons, CTAs */
+  .u-font-buttons {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
