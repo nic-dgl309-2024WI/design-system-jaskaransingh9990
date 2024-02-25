@@ -1,5 +1,5 @@
 
-
+/*  mobile navbar */
 .mobile-navbar {
     display: flex;
     background-color: var(--clr-white);
@@ -8,6 +8,8 @@
     justify-content: space-between;
     cursor: pointer;
 }
+
+/* mobile navbar anchor */
 
 .mobile-navbar  a{
     text-decoration: none;
@@ -19,36 +21,43 @@
 .side-navbar {
     display: none;
 }
-
+/*  mobile bar hamberger show*/
 .side-navbar.show {
     display: block;
     width: 100px;
 
 }
+/*  side navbar  anchor on desktop*/
 .side-navbar a {
     text-decoration: none;
     color: var(--clr-primary);
 }
+/*  top navbar hide on mobile*/
 .top-navbar {
     display: none;
 }
+/*  desktop active state */
 .top-navbar li.active {
     background-color: var(--clr-light); 
     font-size: medium;
 }
+/*  website logo */
 .logo-text {
     font-size: 1.5rem; /* Adjust the font size as needed */
     font-weight: bold;
     color: #333; /* Adjust the color as needed */
     text-decoration: none;
 }
+/*  hover state */
 .side-navbar li:hover {
     text-decoration: underline;
 }
+/*  hover state active state */
 .side-navbar li.active {
     background-color: var(--clr-light); 
     font-size: medium;
 }
+/*  side navbar heading */
 .side-navbar h3 {
     color: var(--clr-accent);
     margin-bottom: 10px;
@@ -66,6 +75,7 @@
     display: flex;
     
 }
+/*  top navbar links  */
 .top-navbar-links {
     background-color: var(--clr-white);
     padding: 20px;
@@ -73,12 +83,13 @@
     margin-left: 1000px;
     
 }
-
+/*  top navbar anchor */
 .top-navbar a {
     text-decoration: none;
     color: var(--clr-primary);
     margin-right: 1px;
 }
+/*  top navbar logo text */
 .logo-text {
     font-size: 1.5rem; /* Adjust the font size as needed */
     font-weight: bold;
@@ -96,26 +107,27 @@
     color: var(--clr-primary);
     width: 150px;
 }
-
+/*  side navbar list */
 .side-navbar ul {
     list-style-type: none;
 }
-
+/*  side navbar heading */
 .side-navbar h3 {
     color: var(--clr-accent);
     margin-bottom: 10px;
 }
-
+/* side navbar list  */
 .side-navbar li {
     margin-bottom: 1px;
 }
+/*  side navbar active state */
 .side-navbar li.active {
     background-color: var(--clr-light); 
 }
 
-/* Mobile Navbar styles */
+/* Initially hide the mobile navbar */
 .mobile-navbar {
-    display: none; /* Initially hide the mobile navbar */
+    display: none; 
     
 }
 .mobile-side-navbar{
@@ -124,34 +136,35 @@
 }
 
 /*------------------------------color swatch----------------*/
+/* float swatches to right */
 .swatches {
     float: right;
     top: 25%;
     left: 20%;
     position: absolute;
 }
-
+/* color box */
 .color-box-primary {
     background-color: #333333;
     width: 100px;
     border: 2px solid;
     color: white;
 }
-
+/* color box */
 .color-box-secondary {
     background-color: #a9a9a9;
     width: 100px;
     border: 2px solid;
     color: white;
 }
-
+/* color box */
 .color-box-accent {
     background-color: #a80000;
     width: 100px;
     border: 2px solid;
     color: white;
 }
-
+/* color box */
 .color-box-white {
     background-color: white;
     width: 100px;
@@ -163,7 +176,7 @@
     display: inline-block;
     margin-right: 20px;
 }
-
+/* color content box */
 .color-details {
     padding: 10px;
     border: 1px solid #ddd;
@@ -207,25 +220,26 @@
 
 
 /* ---------------------- typography---------------------*/
+/* typography  box */
 .typography{
     float: right;
     top: 25%;
     left: 24%;
     position:absolute;
 }
-
+/* table container */
 .table-container {
     overflow-x: auto;
     max-width: 100%;
     
 }
-
+/* table */
 table {
     width: 80%;
     border-collapse: collapse;
     
 }
-
+/* row and column */
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
@@ -239,20 +253,20 @@ th {
 td{
     padding: 20px;
 }
-
+/* typography list */
 .c-typography-list, .c-font-uses{
     margin:10px;
 }
-
+/* typography  sublist */
 .c-typography-sublist{
     margin-top: 20px;
     
 }
-
+/* header font */
 .char-set-header{
     padding: 30px 20px;
 }
-
+/* sub heading */
 .u-font-subheading{
     padding: 10px 2px 20px 2px;
 
