@@ -148,14 +148,14 @@
     background-color: #333333;
     width: 100px;
     border: 2px solid;
-    color: white;
+    color: #333333;
 }
 /* color box */
 .color-box-secondary {
     background-color: #a9a9a9;
     width: 100px;
     border: 2px solid;
-    color: white;
+    color: #a9a9a9;
 }
 /* color box */
 .color-box-accent {
@@ -168,8 +168,8 @@
 .color-box-white {
     background-color: white;
     width: 100px;
-    border: 2px solid;
-    color: #333333;
+    border: 2px solid black;
+    color: white;
 }
 
 .color-swatch {
@@ -181,32 +181,7 @@
     padding: 10px;
     border: 1px solid #ddd;
 }
-
-/* Styles for Primary Color Swatch */
-.u-bg-secondary .color-bg {
-    background-color: #333333;
-    color: white;
-}
-
-/* Styles for Secondary Color Swatch */
-.u-bg-accent-primary .color-bg {
-    background-color: #a9a9a9;
-    color: white;
-}
-
-/* Styles for Accent Color Swatch */
-.u-bg-primary .color-bg {
-    background-color: #a80000;
-    color: white;
-}
-
-/* Styles for White Color Swatch */
-.u-accent-secondary .color-bg {
-    background-color: white;
-    color: #333333;
-}
-
-/* Styles for Text Colors in Swatches */
+/* color deatil list*/
 .color-details li {
     list-style-type: square;
     margin-left: 20px;
@@ -239,7 +214,7 @@ table {
     border-collapse: collapse;
     
 }
-/* row and column */
+/* style the table */
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
