@@ -123,103 +123,86 @@
 }
 }
 
-
-
-/*--------------color swatch-------------------*/
-.swatches{
+/*------------------------------color swatch----------------*/
+.swatches {
     float: right;
     top: 25%;
     left: 20%;
-    position:absolute;
+    position: absolute;
 }
-.color-box-primary{
+
+.color-box-primary {
     background-color: #333333;
     width: 100px;
-    border: 2px solid ;
-    color:white;
+    border: 2px solid;
+    color: white;
 }
 
-.color-box-secondary{
-    background-color:  #a9a9a9;
+.color-box-secondary {
+    background-color: #a9a9a9;
     width: 100px;
-    border: 2px solid ;
-    color:white;
-}
-.color-box-accent{
-    background-color:   #A80000;
-    width: 100px;
-    border: 2px solid ;
-    color:white;
-}
-.color-box-white{
-    background-color:   white;
-    width: 100px;
-    border: 2px solid ;
-    color:#333333;
+    border: 2px solid;
+    color: white;
 }
 
+.color-box-accent {
+    background-color: #a80000;
+    width: 100px;
+    border: 2px solid;
+    color: white;
+}
+
+.color-box-white {
+    background-color: white;
+    width: 100px;
+    border: 2px solid;
+    color: #333333;
+}
 
 .color-swatch {
     display: inline-block;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px;
 }
 
 .color-details {
     padding: 10px;
-    border: 1px solid #ddd; /* Border for separation, adjust as needed */
+    border: 1px solid #ddd;
 }
 
 /* Styles for Primary Color Swatch */
-.primary .color-bg {
-    background-color: var(--clr-primary);
-    color: var(--clr-white); /* Text color matches the background color */
+.u-bg-secondary .color-bg {
+    background-color: #333333;
+    color: white;
 }
 
 /* Styles for Secondary Color Swatch */
-.secondary .color-bg {
-    background-color: var(--clr-secondary);
-    color: var(--clr-white); /* Text color matches the background color */
+.u-bg-accent-primary .color-bg {
+    background-color: #a9a9a9;
+    color: white;
 }
 
 /* Styles for Accent Color Swatch */
-.accent .color-bg {
-    background-color: var(--clr-accent);
-    color: var(--clr-white); /* Text color matches the background color */
+.u-bg-primary .color-bg {
+    background-color: #a80000;
+    color: white;
 }
 
 /* Styles for White Color Swatch */
-.white .color-bg {
-    background-color: var(--clr-white);
-    color: var(--clr-primary); /* Text color matches the background color */
+.u-accent-secondary .color-bg {
+    background-color: white;
+    color: #333333;
 }
 
 /* Styles for Text Colors in Swatches */
 .color-details li {
     list-style-type: square;
-    margin-left: 20px; /* Adjust as needed */
+    margin-left: 20px;
 }
 
 /* Styles for Contrast Ratio Pass/Fail */
 .color-details p:last-child {
     font-weight: bold;
-    margin-top: 10px; /* Adjust as needed */
-}
-
-/* Text color styles for contrast testing */
-.text-light {
-    color: var(--clr-light);
-}
-
-.text-white {
-    color: var(--clr-white);
-}
-
-.text-primary-light {
-    color: var(--clr-primary-100);
-}
-
-.text-primary-dark {
-    color: var(--clr-primary-300);
+    margin-top: 10px;
 }
 
 
