@@ -51,6 +51,7 @@
 /*  hover state */
 .side-navbar li:hover {
     text-decoration: underline;
+    color: #a80000;
 }
 /*  hover state active state */
 .side-navbar li.active {
@@ -167,7 +168,7 @@
     background-color: #a80000;
     width: 100px;
     border: 2px solid;
-    color: white;
+    color: #a80000;
 }
 /* color box */
 .color-box-white {
@@ -176,6 +177,14 @@
     border: 2px solid black;
     color: white;
 }
+
+.color-box-white-tone {
+    background-color: #808080;
+    width: 100px;
+    border: 2px solid black;
+    color: white;
+}
+
 
 .color-swatch {
     display: inline-block;
