@@ -567,3 +567,45 @@ ul, ol {
 .l-grid-gap-1 {
   gap: 1rem;
 }
+
+/* Position Layout Classes */
+.l-position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Table Layout Classes */
+.u-table-layout-fixed {
+  table-layout: fixed;
+}
+
+
+/* ----------------   Container  utility classes ---------- */
+
+
+/* Full-width container class for all screens */
+.container-full-width {
+  width: 100%;
+}
+
+/* Max-width for mobile devices */
+.container-max-width {
+  max-width: 100%;
+}
+
+/* Fixed height container */
+.container-for-sidebar {
+  min-width: 150px;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.page-wrapper {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
