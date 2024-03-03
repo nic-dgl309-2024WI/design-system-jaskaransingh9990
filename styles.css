@@ -609,3 +609,40 @@ ul, ol {
   margin-right: auto;
   margin-left: auto;
 }
+
+
+/*---------------- Media query for desktop devices ------------*/
+@media (min-width: 767px) {
+
+  
+  /* Position Layout Classes */
+  .l-position-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  /* Utility Classes for Margin */
+  .u-margin-1 {
+    margin: 1rem;
+  }
+
+  .u-margin-4 {
+    margin: 4rem;
+  }
+
+  /* Utility Classes for Padding */
+  .u-padding-1 {
+    padding: 1rem;
+  }
+
+  .u-padding-4 {
+    padding: 4rem;
+  }
+
+  /* This class has flex applied on desktop and block adapted on mobile */
+  .l-flex-or-block {
+    display: flex;
+  }
+}
