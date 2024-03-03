@@ -521,3 +521,49 @@ ul, ol {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+/* ----------------   Flexbox and Grid utility classes ---------- */
+
+
+/* Flexbox Layout Classes */
+.l-flex {
+  display: flex;
+}
+
+/* This class has flex applied on desktop and block adapted on mobile */
+.l-flex-or-block {
+  display: block;
+}
+
+.l-flex-column {
+  flex-direction: column;
+}
+
+.l-flex-row {
+  flex-direction: row;
+}
+
+.l-justify-center {
+  justify-content: center;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+/* Grid Layout Classes */
+.l-grid {
+  display: grid;
+}
+
+.l-grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.l-grid-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.l-grid-gap-1 {
+  gap: 1rem;
+}
