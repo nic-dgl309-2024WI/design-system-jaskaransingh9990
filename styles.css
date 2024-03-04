@@ -297,19 +297,19 @@ ul, ol {
   margin-bottom: 1rem;
 }
 
+
+
+/* 20px */
 .l-m-1-25 {
   margin: 1.25rem;
 }
 
-/* 20px */
 .l-mt-1-25 {
   margin-top: 1.25rem;
 }
-
 .l-mb-1-25 {
   margin-bottom: 1.25rem;
 }
-
 .l-ml-1-25 {
   margin-left: 1.25rem;
 }
@@ -359,17 +359,18 @@ ul, ol {
   margin-bottom: 1.5rem;
 }
 
+
+
+/* 32px */
 .l-m-2 {
   margin: 2rem;
 }
-
-/* 32px */
 .l-mt-2 {
   margin-top: 2rem;
 }
 
-.l-mt-6 {
-  margin-top: 6rem;
+.l-mt-2 {
+  margin-top: 2rem;
 }
 
 .l-mb-2 {
@@ -397,12 +398,11 @@ ul, ol {
 
 /* ----------------   Padding utility classes ---------- */
 
+/* 16px */
 
 .l-p-1 {
   padding: 1rem;
 }
-
-/* 16px */
 .l-pt-1 {
   padding-top: 1rem;
 }
