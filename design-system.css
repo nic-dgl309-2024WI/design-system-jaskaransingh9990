@@ -148,12 +148,7 @@
 
 /*------------------------------color swatch----------------*/
 /* float swatches to right */
-.swatches {
-    float: right;
-    top: 25%;
-    left: 20%;
-    position: absolute;
-}
+
 /* color box */
 .color-box-primary {
     background-color: #333333;
@@ -191,10 +186,6 @@
 }
 
 
-.color-swatch {
-    display: inline-block;
-    margin-right: 20px;
-}
 /* color content box */
 .color-details {
     padding: 10px;
