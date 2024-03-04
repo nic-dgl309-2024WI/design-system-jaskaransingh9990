@@ -615,32 +615,13 @@ ul, ol {
 @media (min-width: 767px) {
 
   
-  /* Position Layout Classes */
-  .l-position-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+  .container-desktop {
+    max-width: 1200px; /* Constrained max-width for desktop */
+    margin: 0 auto; /* Centering the container */
+    padding: 0 32px; /* Adjusted padding for desktop */
   }
-
-  /* Utility Classes for Margin */
-  .u-margin-1 {
-    margin: 1rem;
-  }
-
-  .u-margin-4 {
-    margin: 4rem;
-  }
-
-  /* Utility Classes for Padding */
-  .u-padding-1 {
-    padding: 1rem;
-  }
-
-  .u-padding-4 {
-    padding: 4rem;
-  }
-
+ 
+  
   /* This class has flex applied on desktop and block adapted on mobile */
   .l-flex-or-block {
     display: flex;
