@@ -76,7 +76,6 @@
 /* Top Navbar styles */
 .top-navbar {
     background-color: var(--clr-white);
-    padding: 20px;
     display: flex;
     position: fixed;
 }
@@ -216,18 +215,7 @@
 
 /* ---------------------- typography---------------------*/
 /* typography  box */
-.typography{
-    float: right;
-    top: 25%;
-    left: 24%;
-    position:absolute;
-}
-/* table container */
-.table-container {
-    overflow-x: auto;
-    max-width: 100%;
-    
-}
+
 /* table */
 table {
     width: 80%;

@@ -614,11 +614,13 @@ ul, ol {
 /*---------------- Media query for desktop devices ------------*/
 @media (min-width: 767px) {
 
-  
+  /* Max-width for desktop */
   .container-desktop {
     max-width: 1200px; /* Constrained max-width for desktop */
     margin: 0 auto; /* Centering the container */
-    padding: 0 32px; /* Adjusted padding for desktop */
+    padding: 32px; /* Adjusted padding for desktop */
+    padding-left: 200px;
+    
   }
  
   
