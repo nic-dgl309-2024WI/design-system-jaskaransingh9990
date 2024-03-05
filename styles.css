@@ -602,30 +602,16 @@ ul, ol {
 
 /* ----------------   Container  utility classes ---------- */
 
+.container-mobile {
+  max-width: 100%; /* Full width on mobile */
+  padding: 16px; /* Adequate padding around the content */
+  margin: auto;
+}
+
 
 /* Full-width container class for all screens */
 .container-full-width {
   width: 100%;
-}
-
-/* Max-width for mobile devices */
-.container-max-width {
-  max-width: 100%;
-}
-
-/* Fixed height container */
-.container-for-sidebar {
-  min-width: 150px;
-}
-
-.u-text-center {
-  text-align: center;
-}
-
-.page-wrapper {
-  width: 60%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 
