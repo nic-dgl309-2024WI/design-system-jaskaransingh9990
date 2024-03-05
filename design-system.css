@@ -209,9 +209,8 @@
 
 /* table */
 table {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
-    
 }
 /* style the table */
 th, td {
@@ -225,7 +224,7 @@ th {
 }
 
 td{
-    padding: 20px;
+    padding: 10px;
 }
 /* typography list */
 .c-typography-list, .c-font-uses{
