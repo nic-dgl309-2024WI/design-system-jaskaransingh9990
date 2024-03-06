@@ -697,12 +697,12 @@ ul, ol {
 }
 
 /* Hide Element */
-.u-hide {
+.u-hide-mobile {
   display: none;
 }
 
 /* Show Element */
-.u-show {
+.u-show-mobile {
   display: block;
 }
 
@@ -718,6 +718,8 @@ ul, ol {
 /* Full-width container class for mobile */
 .container-full-width {
   width: 100%;
+  margin: auto;
+  padding: 16px; 
 }
 
 
@@ -731,10 +733,22 @@ ul, ol {
     padding: 32px; /* Adjusted padding for desktop */
     padding-left: 200px;
   }
- 
-  
-  /* This class has flex applied on desktop and block adapted on mobile */
-  .l-flex-or-block {
-    display: flex;
+ /* Full-width container class for desktop */
+  .container-full-width {
+    width: 100%;
+    margin: auto;
+    padding-left: 200px;
   }
+ 
+  /* Hide Element */
+.u-hide-desktop {
+  display: none;
+}
+
+/* Show Element */
+.u-show-desktop {
+  display: block;
+}
+
+
 }

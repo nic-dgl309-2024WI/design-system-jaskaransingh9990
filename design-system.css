@@ -149,6 +149,19 @@
 .mobile-side-navbar{
     display: none;
 }
+
+
+
+
+
+
+
+.show-mobile{
+    display: none;
+}
+
+
+
 }
 
 /*------------------------------color swatch----------------*/
@@ -250,7 +263,7 @@ td{
 
 }
 
-
+/*------------about page----*/
 
 img {
     margin-top: 20px;
@@ -259,8 +272,13 @@ img {
 
 
 
+
+
+
+/* -------container page ------*/
+
   /* Table container */
-.table-container {
+  .table-container {
     max-width: 800px;
     margin: 0 auto;
     
@@ -268,3 +286,12 @@ img {
 .table-container th{
     font-size: 2rem;
 }
+
+
+
+
+.Example
+{
+border: 1px solid black;
+}
+
