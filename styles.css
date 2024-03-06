@@ -726,7 +726,7 @@ ul, ol {
 
   /* Max-width for desktop */
   .container-desktop {
-    max-width: 1200px; /* Constrained max-width for desktop */
+    max-width: 1000px; /* Constrained max-width for desktop */
     margin: 0 auto; /* Centering the container */
     padding: 32px; /* Adjusted padding for desktop */
     padding-left: 200px;
