@@ -545,8 +545,40 @@ ul, ol {
   flex-direction: row;
 }
 
+.l-flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.l-flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .l-flex-wrap {
   flex-wrap: wrap;
+}
+
+.l-flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.l-flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.l-flex-justify-start {
+  justify-content: flex-start;
+}
+
+.l-flex-justify-end {
+  justify-content: flex-end;
+}
+
+.l-flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.l-flex-justify-space-around {
+  justify-content: space-around;
 }
 
 .l-justify-center {
@@ -573,11 +605,67 @@ ul, ol {
   grid-template-rows: auto;
 }
 
+.l-grid-auto {
+  grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+}
+
+.l-grid-columns-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.l-grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.l-grid-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.l-grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 
 .l-grid-gap-1 {
   gap: 1rem;
 }
 
+.l-grid-gap-2 {
+  gap: 2rem;
+}
+.l-grid-gap-3 {
+  gap: 3rem;
+}
+.l-grid-gap-4 {
+  gap: 4rem;
+}
+
+/* Grid Column Gap */
+.l-grid-column-gap-1 {
+  column-gap: 1rem;
+}
+
+.l-grid-column-gap-2 {
+  column-gap: 2rem;
+}
+
+.l-grid-column-gap-3 {
+  column-gap: 3rem;
+}
+
+.l-grid-column-gap-4 {
+  column-gap: 4rem;
+}
+
+/* Grid Auto Rows */
+.l-grid-auto-rows {
+  grid-auto-rows: minmax(100px, auto);
+}
+
+/* Grid Auto Columns */
+.l-grid-auto-columns {
+  grid-auto-columns: minmax(100px, auto);
+}
 .l-justify-items-center {
   justify-items: center;
 }
@@ -586,30 +674,48 @@ ul, ol {
   align-content: center;
 }
 
-/* Position Layout Classes */
+/* ---- Position ------ */
+
+/* Fixed Position */
 .l-position-fixed {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 
-/* Table Layout Classes */
-.u-table-layout-fixed {
-  table-layout: fixed;
+/* Absolute Position */
+.l-position-absolute {
+  position: absolute;
 }
 
+/* Relative Position */
+.l-position-relative {
+  position: relative;
+}
+
+/* Sticky Position */
+.l-position-sticky {
+  position: sticky;
+}
+
+/* Hide Element */
+.u-hide {
+  display: none;
+}
+
+/* Show Element */
+.u-show {
+  display: block;
+}
 
 /* ----------------   Container  utility classes ---------- */
-
+/* max width for mobile */
 .container-mobile {
-  max-width: 480px; /* Full width on mobile */
-  padding: 16px; /* Adequate padding around the content */
+  max-width: 480px; 
+  padding: 16px; 
   margin: auto;
 }
 
 
-/* Full-width container class for all screens */
+/* Full-width container class for mobile */
 .container-full-width {
   width: 100%;
 }
@@ -620,7 +726,7 @@ ul, ol {
 
   /* Max-width for desktop */
   .container-desktop {
-    max-width: 800px; /* Constrained max-width for desktop */
+    max-width: 1200px; /* Constrained max-width for desktop */
     margin: 0 auto; /* Centering the container */
     padding: 32px; /* Adjusted padding for desktop */
     padding-left: 200px;
