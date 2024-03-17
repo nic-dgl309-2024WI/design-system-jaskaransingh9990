@@ -41,10 +41,9 @@
     display: none;
 }
 /*  desktop active state */
-.top-navbar li.active {
+.logo-active-state {
     background-color: var(--clr-light); 
-    font-size: medium;
-}
+  }
 .top-navbar-links a.active {
     background-color: var(--clr-light); 
   }
