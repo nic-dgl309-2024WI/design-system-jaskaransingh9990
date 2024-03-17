@@ -270,7 +270,11 @@ img {
     margin-bottom: 20px;
     width: 100%;
   }
-
+/* Limit paragraph width */
+.max-width-paragraph {
+    max-width: 80ch; 
+  }
+  
 
 
 
