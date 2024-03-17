@@ -79,7 +79,7 @@
 .top-navbar {
     background-color: var(--clr-white);
     display: flex;
-    position: fixed;
+
     font-size: 2rem;
   
 }
