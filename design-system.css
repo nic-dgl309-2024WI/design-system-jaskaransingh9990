@@ -48,6 +48,7 @@
 .top-navbar-links a.active {
     background-color: var(--clr-light); 
   }
+
 /*  website logo */
 .logo-text {
     font-size: 1.5rem; /* Adjust the font size as needed */
