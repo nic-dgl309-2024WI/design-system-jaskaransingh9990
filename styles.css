@@ -1,5 +1,5 @@
 html{
-    font-size: 62.5%;
+    font-size: 16px;
     
   }
 
@@ -235,9 +235,9 @@ ul, ol {
   }
   
   /* Body Text (P) */
-  .u-font-body-text {
+  .u-font-body-text{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size:1rem;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0;
