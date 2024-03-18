@@ -28,7 +28,7 @@
 /*  mobile bar hamberger show*/
 .side-navbar.show {
     display: block;
-    width: 70px;
+    width: 100px;
 
 }
 /*  side navbar  anchor on desktop*/
@@ -78,7 +78,7 @@
 .top-navbar {
     background-color: var(--clr-white);
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: fixed; /* Set the position to fixed */
     top: 0; /* Position it at the top of the viewport */
     width: 100%; /* Make it span the entire width of the viewport */
@@ -199,7 +199,7 @@
 }
 
 .color-box-white-tone {
-    background-color: #808080;
+    background-color:   #f0f0f0;
     width: 100px;
     border: 2px solid black;
     color: #808080;
