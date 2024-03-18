@@ -340,3 +340,6 @@ table.spacing th {
     color: #333;
     font-weight: bold;
 }
+.zebra-stripe{
+    background-color: #ddd;
+}
