@@ -261,6 +261,7 @@ th {
 
 td{
     padding: 10px;
+    line-height: 3;
 }
 /* typography list */
 .c-typography-list, .c-font-uses{
