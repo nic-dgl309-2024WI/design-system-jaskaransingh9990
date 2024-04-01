@@ -753,3 +753,69 @@ ul, ol {
 
 
 }
+
+
+
+/*   code for nursery site  */
+
+/*  mobile navbar */
+.mobile-navbar {
+  display: flex;
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
+  padding: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+/* mobile navbar active state */
+.mobile-navbar li.active {
+  background-color: var(--clr-light); 
+  font-size: medium;
+}
+/* mobile navbar anchor */
+
+.mobile-navbar  a{
+  text-decoration: none;
+  color: var(--clr-secondary);
+}
+
+
+/* Hide the side navbar on mobile */
+.side-navbar {
+  display: none;
+}
+/*  mobile bar hamberger show*/
+.side-navbar.show {
+  display: block;
+  width: 100px;
+
+}
+/*  side navbar  anchor on desktop*/
+.side-navbar a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+/*  top navbar hide on mobile*/
+.top-navbar {
+  display: none;
+}
+/*  desktop active state */
+.logo-active-state {
+  background-color: var(--clr-light); 
+}
+.top-navbar-links a.active {
+  background-color: var(--clr-light); 
+}
+
+/*  website logo */
+.logo-text {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #333; /* Adjust the color as needed */
+  text-decoration: none;
+}
+
+
+
+
+
