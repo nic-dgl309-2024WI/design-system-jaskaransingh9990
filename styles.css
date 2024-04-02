@@ -818,4 +818,40 @@ ul, ol {
 
 
 
+.carousel {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.carousel__container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel__image {
+  flex: 0 0 100%; /* Each image takes up the full width of the container */
+  width: 40%;
+  height: auto;
+}
+
+.carousel__control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel__control--prev {
+  left: 10px;
+}
+
+.carousel__control--next {
+  right: 1%;
+}
 
