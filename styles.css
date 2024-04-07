@@ -976,6 +976,30 @@ header {
 }
 
 
+/* About Us SECTION CSS */
+.about-container {
+  width: 100%;
+}
+
+.explore-btn {
+  width: 200px;
+  padding: 10px;
+  align-self: center;
+  background-color: lightblue;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.about-container img {
+  border-radius: 10px;
+  align-self: center;
+
+}
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1007,13 +1031,18 @@ header {
     margin-bottom: 10px;
   }
 
-/* Product SECTION CSS*/
+  /* Product SECTION CSS*/
 
 
   .product-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 
+  }
+
+  /* About Us SECTION CSS */
+  .about-container {
+    flex-direction: column;
   }
 
 }
