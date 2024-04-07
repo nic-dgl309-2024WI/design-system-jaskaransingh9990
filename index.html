@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nursery</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="design-system.js"></script>
-  </head>
-  <body>
-    <!-- Tob header bar -->
-    <header
-      class="l-flex l-flex-justify-space-between l-align-center text-white l-px-1 l-py-1"
-    >
-      <div class="logo">
-        <img src="./images/logo.jpg" alt="Logo" />
-      </div>
-      <nav class="options l-flex l-align-center">
-        <ul class="header-ul l-flex">
-          <li><a href="coming-soon.html">Products</a></li>
-          <li><a href="coming-soon.html">About Us</a></li>
-          <li><a href="coming-soon.html">Testimonials</a></li>
-          <li><a href="coming-soon.html">Contact Us</a></li>
-        </ul>
-      </nav>
-      <div class="menu-icon">&#9776;</div>
-    </header>
-<!-- Hero section -->
-<section
-class="hero-section l-flex l-justify-center l-align-center text-white l-flex-column l-p-1"
->
-<h1 class="hero-heading l-mb-1-25 text-accent">Welcome to Outback Nursery</h1>
-<p class="hero-subheading l-mb-2">To say updated follow us on facebook</p>
-<a
-  href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/"
-  target="_blank"
-  class="facebook-button text-white l-px-1 l-py-1"
-  >Visit us on Facebook</a
->
-</section>
+    <script src="main.js"></script>
+</head>
 
-  </body>
+<body>
+    <!-- Tob header bar -->
+    <header class="l-flex l-flex-justify-space-between l-align-center text-white l-px-1 l-py-1">
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Logo" />
+        </div>
+        <nav class="options l-flex l-align-center">
+            <ul class="header-ul l-flex">
+                <li><a href="coming-soon.html">Products</a></li>
+                <li><a href="coming-soon.html">About Us</a></li>
+                <li><a href="coming-soon.html">Testimonials</a></li>
+                <li><a href="coming-soon.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">&#9776;</div>
+    </header>
+    <!-- Hero section -->
+    <section class="hero-section l-flex l-justify-center l-align-center text-white l-flex-column l-p-1">
+        <h1 class="hero-heading l-mb-1-25 text-accent">Welcome to Outback Nursery</h1>
+        <p class="hero-subheading l-mb-2">To say updated follow us on facebook</p>
+        <a href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/" target="_blank"
+            class="facebook-button text-white l-px-1 l-py-1">Visit us on Facebook</a>
+    </section>
+    <main class="l-p-1-25">
+        <!-- Products section -->
+        <div id="products" class="l-p-2 l-px-2 l-b-1 l-mt-1 l-r-0-5 l-flex l-flex-column l-align-center relative">
+            <h2>Best Sellers</h2>
+
+            <h1 id="prevButton" style="position: absolute; left: 10px; top: 50%;cursor:pointer;">
+                &lt;
+            </h1>
+            <div id="product-list" class="product-list l-grid l-grid-columns-3 l-grid-gap-2">
+                <div class="card l-flex l-flex-column l-pb-1 l-grid-gap-1">
+                    <img src="images/Petunia.webp" height="230" width="300" />
+                    <span>Petunia</span>
+                </div>
+            </div>
+            <h1 id="nextButton" style="position: absolute; right: 10px; top: 50%; cursor: pointer">
+                &gt;
+            </h1>
+        </div>
+    </main>
+</body>
+
 </html>

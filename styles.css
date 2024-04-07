@@ -936,12 +936,43 @@ header {
   font-size: 1.5rem;
 }
 
+/* cta button*/
+
 .facebook-button {
   background-color: #3b5998;
   border: none;
   border-radius: 5px;
   text-decoration: none;
   font-size: 1.2rem;
+}
+
+/* Product SECTION CSS*/
+
+
+.product-list {
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  min-height: 250px;
+  min-width: 230px;
+  position: relative;
+
+  align-items: center;
+  overflow: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.active {
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: black;
 }
 
 
@@ -975,4 +1006,14 @@ header {
     margin-right: 0;
     margin-bottom: 10px;
   }
+
+/* Product SECTION CSS*/
+
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
 }
