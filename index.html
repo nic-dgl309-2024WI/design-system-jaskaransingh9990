@@ -1,40 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Web Page Title</title>
-    <!-- Link your CSS files here -->
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nursery</title>
+    <link rel="stylesheet" href="styles.css" />
     <script src="design-system.js"></script>
+  </head>
+  <body>
+    <!-- Tob header bar -->
+    <header
+      class="l-flex l-flex-justify-space-between l-align-center text-white l-px-1 l-py-1"
+    >
+      <div class="logo">
+        <img src="./images/logo.jpg" alt="Logo" />
+      </div>
+      <nav class="options l-flex l-align-center">
+        <ul class="header-ul l-flex">
+          <li><a href="#products">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">&#9776;</div>
+    </header>
 
-</head>
-<body>
-     <!-- mobile navbar -->
-     <div class="mobile-navbar">
-        <a href="design-system.html" class="logo-active-state">
-            <p class="logo-text">Design System</p>
-        </a>
-        <div id="hamburger-icon" class="hamburger-icon">☰</div>
-    </div>
-    <div class="mobile-side-navbar">
-        <nav id="side-navbar" class="side-navbar">
-            <a href="coming-soon.html">PRODUCTS</a><br>
-            <a href="coming-soon.html">ABOUT US</a><br>
-            <a href="coming-soon.html">TESTIMONIALS</a><br>
-            <a href="coming-soon.html">CONTACT US</a><br>
-        </nav>
-    </div>
-    <section class="carousel cs-carousel">
-        <button class="carousel__control carousel__control--prev cs-carousel__control cs-carousel__control--prev">&lt;</button>
-        <div class="carousel__container cs-carousel__container">
-          <img src="images/1.png" alt="Image 1" class="carousel__image cs-carousel__image">
-          <img src="images/1.png" alt="Image 1" class="carousel__image cs-carousel__image">
-          <img src="images/1.png" alt="Image 1" class="carousel__image cs-carousel__image">
-         
-         </div>
-        <button class="carousel__control carousel__control--next cs-carousel__control cs-carousel__control--next">&gt;</button>
-      </section>
-      
-</body>
+  </body>
+</html>
