@@ -917,6 +917,34 @@ header {
   text-decoration: none;
 }
 
+
+/*HERO SECTION CSS */
+.hero-section {
+  position: relative;
+  background-image: url("./images/herobg1.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  min-height: 400px;
+}
+
+.hero-heading {
+  font-size: 3rem;
+}
+
+.hero-subheading {
+  font-size: 1.5rem;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
