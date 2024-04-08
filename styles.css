@@ -1123,7 +1123,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 40px;
+    top: 90px;
     right: 10px;
     z-index: 1000;
     width: 150px;
