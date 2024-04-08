@@ -1095,6 +1095,11 @@ footer {
   width: 20px;
 }
 
+/* footer */
+.quick-line a {
+  text-decoration: none;
+  color: black;
+}
 
 @media screen and (max-width: 768px) {
   .menu-icon {
