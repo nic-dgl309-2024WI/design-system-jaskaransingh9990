@@ -1044,9 +1044,11 @@ header {
 .l-r-2 {
   border-radius: 2rem;
 }
+
 .l-b-1 {
   border: 1px solid lightgray;
 }
+
 .l-align-self-center {
   align-self: center;
 }
@@ -1079,6 +1081,20 @@ header {
 .w-100 {
   width: 100%;
 }
+
+/* Footer SECTION CSS */
+footer {
+  border-top: 1px solid lightgrey;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons {
+  height: 20px;
+  width: 20px;
+}
+
 
 @media screen and (max-width: 768px) {
   .menu-icon {
@@ -1138,6 +1154,7 @@ header {
   .contact-subcontainer {
     flex-direction: column;
   }
+
   /* Resources SECTION CSS */
 
 
@@ -1145,5 +1162,9 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  /* Footer SECTION CSS */
+  .quick-line {
+    display: none;
+  }
 
 }
