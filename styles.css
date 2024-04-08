@@ -1048,6 +1048,34 @@ header {
 .l-align-self-center {
   align-self: center;
 }
+
+
+/* Contact Us SECTION */
+.field {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 200px;
+  padding: 10px;
+  align-self: center;
+  background-color: lightblue;
+  border-radius: 5px;
+  outline: none;
+  border: none
+}
+
+.follow-container {
+  align-self: flex-start;
+}
+
+.contact-from {
+  min-width: 40%;
+}
+.w-100 {
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1094,10 +1122,17 @@ header {
   }
 
   /* certificate and announcement Section CSS */
-  
+
 
   .ann-main-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+/* Contact Us SECTION */
+
+
+  .contact-subcontainer {
+    flex-direction: column;
   }
 
 }
