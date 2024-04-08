@@ -968,13 +968,6 @@ header {
   position: relative;
 }
 
-.active {
-  height: 15px;
-  width: 15px;
-  border-radius: 50px;
-  background-color: black;
-}
-
 
 /* About Us SECTION CSS */
 .about-container {
