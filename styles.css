@@ -1012,7 +1012,41 @@ header {
   height: 60px;
   width: 60px;
   border-radius: 1000px;
-  border: 1px solid lightgray;
+  border: 1px solid lightgray;
+}
+
+/* Certificates SECTION CSS */
+
+
+.ann-card {
+  background-color: lightgreen;
+  width: 80%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.l-r-0-5 {
+  border-radius: 0.5rem;
+}
+
+.l-r-1 {
+  border-radius: 1rem;
+}
+
+.l-r-1-25 {
+  border-radius: 1.25rem;
+}
+
+.l-r-1-5 {
+  border-radius: 1.5rem;
+}
+
+.l-r-2 {
+  border-radius: 2rem;
+}
+
+.l-align-self-center {
+  align-self: center;
 }
 @media screen and (max-width: 768px) {
   .menu-icon {
@@ -1057,6 +1091,13 @@ header {
   /* About Us SECTION CSS */
   .about-container {
     flex-direction: column;
+  }
+
+  /* certificate and announcement Section CSS */
+  
+
+  .ann-main-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 
 }
