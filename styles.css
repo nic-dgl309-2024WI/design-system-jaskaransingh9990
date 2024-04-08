@@ -1044,7 +1044,9 @@ header {
 .l-r-2 {
   border-radius: 2rem;
 }
-
+.l-b-1 {
+  border: 1px solid lightgray;
+}
 .l-align-self-center {
   align-self: center;
 }
@@ -1073,9 +1075,11 @@ header {
 .contact-from {
   min-width: 40%;
 }
+
 .w-100 {
   width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1128,11 +1132,18 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
 
-/* Contact Us SECTION */
+  /* Contact Us SECTION */
 
 
   .contact-subcontainer {
     flex-direction: column;
   }
+  /* Resources SECTION CSS */
+
+
+  .resource-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 
 }
