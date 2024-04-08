@@ -1000,6 +1000,20 @@ header {
 
 }
 
+/* Testimonials SECTION CSS*/
+.t-card {
+  min-height: 300px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.t-card img {
+  height: 60px;
+  width: 60px;
+  border-radius: 1000px;
+  border: 1px solid lightgray;
+}
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
