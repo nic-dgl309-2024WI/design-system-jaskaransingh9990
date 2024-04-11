@@ -41,11 +41,14 @@
     display: none;
 }
 /*  desktop active state */
-.logo-active-state {
-    background-color: var(--clr-light); 
-  }
+
 .top-navbar-links a.active {
-    background-color: var(--clr-light); 
+   
+    text-decoration: underline;
+  }
+
+  .logo-active-state .logo-text {
+    text-decoration: underline;
   }
 
 /*  website logo */
@@ -56,14 +59,20 @@
     text-decoration: none;
 }
 /*  hover state */
+
+
+.side-navbar ul li a:hover {
+   font-size: medium;
+    color: #a80000;
+  }
 .side-navbar li:hover {
-    text-decoration: underline;
+    
     color: #a80000;
 }
 /*  hover state active state */
 .side-navbar li.active {
-    background-color: var(--clr-light); 
     font-size: medium;
+    text-decoration: underline;
 }
 /*  side navbar heading */
 .side-navbar h3 {
@@ -137,10 +146,6 @@
 /* side navbar list  */
 .side-navbar li {
     margin-bottom: 1px;
-}
-/*  side navbar active state */
-.side-navbar li.active {
-    background-color: var(--clr-light); 
 }
 
 /* Initially hide the mobile navbar */
