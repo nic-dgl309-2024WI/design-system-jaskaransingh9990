@@ -221,3 +221,18 @@ const products = [
       showTestimonials();
     });
   });
+
+
+  // html code show
+
+  function copyCode() {
+    const htmlCode = document.getElementById("html-code");
+    const range = document.createRange();
+    range.selectNode(htmlCode);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+    alert("Code copied!");
+  }
+  
