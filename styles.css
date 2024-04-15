@@ -927,6 +927,7 @@ header {
   text-align: center;
   min-height: 480px;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -938,11 +939,12 @@ header {
 
 .headerContainer {
   z-index: 10;
-  gap:25px;
+  gap: 25px;
   display: flex;
   flex-direction: column;
-  align-items:  center;
+  align-items: center;
 }
+
 .hero-heading {
   font-size: 3rem;
 }
@@ -983,6 +985,19 @@ header {
   position: relative;
 }
 
+.arrow-right {
+  position: absolute;
+  right: 180px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 180px;
+  top: 50%;
+  cursor: pointer;
+}
 
 /* About Us SECTION CSS */
 .about-container {
@@ -1108,6 +1123,7 @@ footer {
   text-decoration: none;
   color: black;
 }
+
 /* hover on buttons and links */
 .on-hover:hover {
   color: black;
@@ -1115,16 +1131,18 @@ footer {
 }
 
 .btn-hover:hover {
-   background-color: rgb(121, 121, 222);
+  background-color: rgb(121, 121, 222);
 }
+
 .explore-btn:hover {
   background-color: rgb(184, 184, 241);
 }
 
 /* coming soon page */
-.coming-soon{
+.coming-soon {
   width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1163,6 +1181,20 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 
+  }
+
+  .arrow-right {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    cursor: pointer;
+  }
+
+  .arrow-left {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    cursor: pointer;
   }
 
   /* About Us SECTION CSS */
