@@ -984,18 +984,11 @@ header {
 .relative {
   position: relative;
 }
-
 .arrow-right {
-  position: absolute;
-  right: 180px;
-  top: 50%;
   cursor: pointer;
 }
 
 .arrow-left {
-  position: absolute;
-  left: 180px;
-  top: 50%;
   cursor: pointer;
 }
 
