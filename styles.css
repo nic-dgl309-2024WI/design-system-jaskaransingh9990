@@ -1018,9 +1018,10 @@ header {
 }
 
 .about-container img {
+  height: 350px;
+  width: 350px;
   border-radius: 10px;
   align-self: center;
-
 }
 
 /* Testimonials SECTION CSS*/
