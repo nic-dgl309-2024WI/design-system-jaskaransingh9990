@@ -25,7 +25,7 @@ ol {
 /* ------------------variables-----------------------  */
 :root {
   --clr-primary: black;
-  --clr-secondary: dark grey;
+  --clr-secondary: grey;
   --clr-accent: #A80000;
   --clr-light: gray;
   --clr-white: white;
@@ -1044,8 +1044,7 @@ header {
 
 
 .ann-card {
-  background-color: lightgreen;
-  width: 80%;
+  background-color: rgb(248, 247, 247);
   border-radius: 10px;
   padding: 1rem;
 }
