@@ -1096,7 +1096,7 @@ footer {
 /* hover on buttons and links */
 .on-hover:hover {
   color: black;
-  font-size: large;
+  text-decoration: underline;
 }
 
 .btn-hover:hover {
