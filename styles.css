@@ -1084,6 +1084,18 @@ header {
   border-radius: 5px;
 }
 
+.map-container {
+  gap: 10px;
+  padding: 10px;
+}
+
+.map-details {
+  padding: 10px;
+  max-width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  gap: 10px
+}
 .submit-btn {
   width: 200px;
   padding: 10px;
