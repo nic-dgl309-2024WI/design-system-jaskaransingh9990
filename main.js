@@ -30,19 +30,21 @@ const testimonials = [
   {
     name: "Natasha Romanoff",
     image: "images/testimonials/t4.jpeg",
-    content: "Outback Nursery has been my go-to place for all things green for years. Their friendly staff always goes out of their way to help me find the perfect plants for my home, and their expertise has turned my garden into a beautiful oasis. I highly recommend them to anyone looking to add a little life to their space."
+    content:
+      "Outback Nursery has been my go-to place for all things green for years. Their friendly staff always goes out of their way to help me find the perfect plants for my home, and their expertise has turned my garden into a beautiful oasis. I highly recommend them to anyone looking to add a little life to their space.",
   },
   {
     name: "Bruce Banner",
     image: "images/testimonials/t5.jpeg",
-    content: "I've always been a bit intimidated by gardening, but Outback Nursery made it so easy for me to get started. Their selection of beginner-friendly plants and helpful advice made me feel confident in my ability to care for my own garden. Thanks to them, I now have a thriving collection of plants that bring me joy every day."
+    content:
+      "I've always been a bit intimidated by gardening, but Outback Nursery made it so easy for me to get started. Their selection of beginner-friendly plants and helpful advice made me feel confident in my ability to care for my own garden. Thanks to them, I now have a thriving collection of plants that bring me joy every day.",
   },
   {
     name: "Peter Parker",
     image: "images/testimonials/t6.jpeg ",
-    content: "Outback Nursery is not just a store; it's a community. The staff and fellow customers are always eager to share tips and advice, making it a welcoming environment for plant enthusiasts of all levels. Whether you're a seasoned gardener or just starting out, you'll feel right at home at Outback Nursery."
-  }
-
+    content:
+      "Outback Nursery is not just a store; it's a community. The staff and fellow customers are always eager to share tips and advice, making it a welcoming environment for plant enthusiasts of all levels. Whether you're a seasoned gardener or just starting out, you'll feel right at home at Outback Nursery.",
+  },
 ];
 
 let currentPage = 0;
@@ -72,31 +74,33 @@ const showRandomProducts = () => {
   }
 
   const productListDiv = document.getElementById("product-list");
-  productListDiv.innerHTML = "";
+  if (productListDiv) {
+    productListDiv.innerHTML = "";
 
-  randomProducts.forEach((product) => {
-    const cardDiv = document.createElement("div");
-    cardDiv.classList.add(
-      "card",
-      "l-flex",
-      "l-flex-column",
-      "l-pb-1",
-      "l-grid-gap-1"
-    );
+    randomProducts.forEach((product) => {
+      const cardDiv = document.createElement("div");
+      cardDiv.classList.add(
+        "card",
+        "l-flex",
+        "l-flex-column",
+        "l-pb-1",
+        "l-grid-gap-1"
+      );
 
-    const img = document.createElement("img");
-    img.src = product.image;
-    img.height = 230;
-    img.width = 300;
+      const img = document.createElement("img");
+      img.src = product.image;
+      img.height = 230;
+      img.width = 300;
 
-    const span = document.createElement("span");
-    span.textContent = product.name;
+      const span = document.createElement("span");
+      span.textContent = product.name;
 
-    cardDiv.appendChild(img);
-    cardDiv.appendChild(span);
+      cardDiv.appendChild(img);
+      cardDiv.appendChild(span);
 
-    productListDiv.appendChild(cardDiv);
-  });
+      productListDiv.appendChild(cardDiv);
+    });
+  }
 };
 
 const showTestimonials = () => {
@@ -135,8 +139,9 @@ const showTestimonials = () => {
     testimonialsDiv.appendChild(cardDiv);
   });
 
-  document.getElementById("pages").innerHTML = `Page ${currentPage + 1
-    } of ${totalPages}`;
+  document.getElementById("pages").innerHTML = `Page ${
+    currentPage + 1
+  } of ${totalPages}`;
 
   updatePaginationButtons();
 };
@@ -169,37 +174,36 @@ function activateMenuIcon() {
   const menuIcon = document.querySelector(".menu-icon");
   const options = document.querySelector(".options");
 
-  menuIcon.addEventListener("click", () => {
+  menuIcon?.addEventListener("click", () => {
     options.classList.toggle("active");
   });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+document?.addEventListener("DOMContentLoaded", function () {
   // =======================HEADER JS================================
   const menuIcon = document.querySelector(".menu-icon");
   const options = document.querySelector(".options");
 
-  menuIcon.addEventListener("click", () => {
+  menuIcon?.addEventListener("click", () => {
     options.classList.toggle("active");
   });
 
   // =======================Product Section JS================================
-  document.getElementById("prevButton").addEventListener("click", () => {
+  document.getElementById("prevButton")?.addEventListener("click", () => {
     showRandomProducts();
   });
 
-  document.getElementById("nextButton").addEventListener("click", () => {
+  document.getElementById("nextButton")?.addEventListener("click", () => {
     showRandomProducts();
   });
 
   showRandomProducts();
   showTestimonials();
-  window.addEventListener("resize", () => {
+  window?.addEventListener("resize", () => {
     showRandomProducts();
     showTestimonials();
   });
 });
-
 
 // html code show
 
