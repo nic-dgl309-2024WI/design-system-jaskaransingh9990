@@ -43,8 +43,11 @@
 /*  desktop active state */
 .logo-active-state .logo-text {
     text-decoration: underline;
-    background-color: white;
   }
+
+.logo-active-state:hover .logo-text {
+    color: #a80000;
+}
 
 /*  website logo */
 .logo-text {
@@ -53,8 +56,20 @@
     color: #333; /* Adjust the color as needed */
     text-decoration: none;
 }
-/*  hover state */
 
+
+/* top nabvar desktop active state */
+
+
+.top-navbar-links a.active {
+    text-decoration: underline;
+  }
+
+  
+/*  hover state  for top navbar*/
+.top-navbar-links a:hover {
+    color:#a80000;
+}
 
 .side-navbar ul li a:hover {
    font-size: medium;
