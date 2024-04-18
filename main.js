@@ -200,6 +200,7 @@ document?.addEventListener("DOMContentLoaded", function () {
   showRandomProducts();
   showTestimonials();
   window?.addEventListener("resize", () => {
+  window.location.reload()
     showRandomProducts();
     showTestimonials();
   });
