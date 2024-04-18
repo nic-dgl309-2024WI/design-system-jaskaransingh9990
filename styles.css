@@ -992,7 +992,7 @@ header {
   width: 200px;
   padding: 10px;
   align-self: center;
-  background-color: lightblue;
+  background-color: #efaa4a;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -1132,7 +1132,7 @@ footer {
 }
 
 .explore-btn:hover {
-  background-color: rgb(184, 184, 241);
+  background-color:#ebbd7d;
 }
 
 /* coming soon page */
