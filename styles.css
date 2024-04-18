@@ -25,7 +25,7 @@ ol {
 /* ------------------variables-----------------------  */
 :root {
   --clr-primary: black;
-  --clr-secondary: grey;
+  --clr-secondary: #efaa4a;
   --clr-accent: #A80000;
   --clr-light: gray;
   --clr-white: white;

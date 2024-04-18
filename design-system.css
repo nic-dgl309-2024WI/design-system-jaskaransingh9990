@@ -198,10 +198,10 @@
 }
 /* color box */
 .color-box-secondary {
-    background-color: #a9a9a9;
+    background-color: #efaa4a;
     width: 100px;
     border: 2px solid;
-    color: #a9a9a9;
+    color: #efaa4a;
 }
 /* color box */
 .color-box-accent {
@@ -222,7 +222,7 @@
     background-color:   #f0f0f0;
     width: 100px;
     border: 2px solid black;
-    color: #808080;
+    color: #f0f0f0;
 }
 
 
