@@ -64,12 +64,16 @@
 .top-navbar-links a.active {
     text-decoration: underline;
   }
-
+ 
   
 /*  hover state  for top navbar*/
-.top-navbar-links a:hover {
+.top-navbar a:hover {
     color:#a80000;
 }
+.logo-text:hover {
+    color: #a80000;
+}
+
 
 .side-navbar ul li a:hover {
    font-size: medium;
