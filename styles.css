@@ -863,6 +863,7 @@ header {
 /* header links style */
 .header-ul li a {
   text-decoration: none;
+  color: black;
 }
 
 
