@@ -841,61 +841,18 @@ ol {
 
 
 
-.carousel {
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-.carousel__container {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.carousel__image {
-  flex: 0 0 100%;
-  /* Each image takes up the full width of the container */
-  width: 40%;
-  height: auto;
-}
-
-.carousel__control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.carousel__control--prev {
-  left: 10px;
-}
-
-.carousel__control--next {
-  right: 1%;
-}
 
 
-/* NAVBAR CSS */
+/** NAVBAR CSS **/
 header {
   border-bottom: 1px solid lightgray;
 }
-
-.logo img {
-  height: 100px;
-  width: 100px;
-}
-
-
+/* NAVBAR links */
 .options li {
   list-style-type: none;
   margin-right: 20px;
 }
-
+/*hamburger menu */
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -903,13 +860,14 @@ header {
 }
 
 
-
+/* header links style */
 .header-ul li a {
   text-decoration: none;
 }
 
 
-/*HERO SECTION CSS */
+/** HERO SECTION CSS **/
+
 .hero-section {
   position: relative;
   background-image: url("./images/herobg1.jpg");
@@ -935,7 +893,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-
+/* hero heading */
 .hero-heading {
   font-size: 3rem;
 }
@@ -954,7 +912,7 @@ header {
   font-size: 1.2rem;
 }
 
-/* Product SECTION CSS*/
+/** Product SECTION CSS **/
 
 
 .product-list {
@@ -983,11 +941,11 @@ header {
   cursor: pointer;
 }
 
-/* About Us SECTION CSS */
+/** About Us SECTION CSS **/
 .about-container {
   width: 100%;
 }
-
+/* button */
 .explore-btn {
   width: 200px;
   padding: 10px;
@@ -1000,7 +958,7 @@ header {
   text-align: center;
   color: black;
 }
-
+/* about us section image */
 .about-container img {
   height: 350px;
   width: 350px;
@@ -1008,7 +966,7 @@ header {
   align-self: center;
 }
 
-/* Testimonials SECTION CSS*/
+/** Testimonials SECTION CSS **/
 .t-card {
   min-height: 300px;
   border: 1px solid lightgray;
@@ -1024,7 +982,7 @@ header {
   border: 1px solid lightgray;
 }
 
-/* Certificates SECTION CSS */
+/** Certificates SECTION CSS **/
 
 
 .ann-card {
@@ -1032,7 +990,7 @@ header {
   border-radius: 10px;
   padding: 1rem;
 }
-
+/* border classes */
 .l-r-0-5 {
   border-radius: 0.5rem;
 }
@@ -1062,7 +1020,7 @@ header {
 }
 
 
-/* Contact Us SECTION */
+/** Contact Us SECTION **/
 .field {
   padding: 10px;
   border-radius: 5px;
@@ -1102,7 +1060,7 @@ header {
   width: 100%;
 }
 
-/* Footer SECTION CSS */
+/** Footer SECTION CSS **/
 footer {
   border-top: 1px solid lightgrey;
   padding: 1rem;
@@ -1115,7 +1073,7 @@ footer {
   width: 20px;
 }
 
-/* footer */
+/* footer links */
 .quick-line a {
   text-decoration: none;
   color: black;
